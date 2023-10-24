@@ -1,0 +1,98 @@
+body{
+	background-color: #581918;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+h1,h2,h3{
+	font-family:'Montserrat', sans-serif;
+    color: #581918;
+}
+
+h1{
+	font-size: 30px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    color: #581918;
+}
+#ehl{
+	font-size:13px;
+}
+
+img{
+	border-radius: 25px;
+}
+
+.container {
+	width: 800px;
+	margin:100px auto;
+}
+
+.card-white {
+    background: white;
+    padding: 50px;
+    margin:50px;
+    box-shadow: 2px 40px 30px rgba(60,0,10,5);
+    border-radius: 65px;
+    text-align: center;
+} 
+#interest{
+	font-size: 25px;
+	color:#581918;
+}
+
+ul{
+	list-style:none;
+	padding:25px;
+	display:inline;
+}
+#learnmore {
+	text-decoration: none;
+	background-color:#581918;
+	color:white;
+	padding:11px;
+	margin:20px;
+	border-radius:7px;
+	transition: all 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#learnmore:hover {
+	background-color:darkgreen;
+	padding:15px;
+	font-size:18px;
+}
+
+
+#linkedin, #instagram {
+  padding: 50px 24px;
+  border-radius: 15px;
+  color: #581918;
+  font-size: 50px;
+  margin: 16px 20px;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#linkedin i, #instagram i {
+  transition: transform 0.2s ease-in-out;
+}
+
+#linkedin:hover, #instagram:hover {
+  color: darkgreen;
+  transform: scale(1.2);
+}
+
+#instagram:hover i, #linkedin:hover i {
+  transform: scale(1.2);
+}
+
+@media(max-width:960px) {
+	.container{
+		width:500px;
+	}
+}
+
+@media(max-width:540px) {
+	.container{
+		width:400px;
+	} 
